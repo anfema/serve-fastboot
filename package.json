@@ -1,0 +1,36 @@
+{
+  "name": "serve-fastboot",
+  "version": "1.0.0",
+  "description": "FastBoot server module that can be used with any of our Ember projects",
+  "main": "index.js",
+  "bin": "bin/fastboot",
+  "repository": "git@github.com:anfema/serve-fastboot.git",
+  "author": "Florian Pichler <f.pichler@anfe.ma>",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "prettier '{**/*.{js,scss},.ember-cli,.prettierrc,.watchmanconfig}' --write",
+    "eslint": "eslint . --fix",
+    "fix": "prettier '{**/*.{js,scss},.ember-cli,.prettierrc,.watchmanconfig}' --write && eslint . --fix"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fastboot-app-server": "^1.0.2",
+    "fastboot-watch-notifier": "^3.0.0",
+    "rc": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "~4.8.0",
+    "eslint-config-airbnb-base": "~12.0.0",
+    "eslint-config-anfema": "~4.0.1",
+    "eslint-config-prettier": "~2.6.0",
+    "eslint-plugin-babel": "~4.1.2",
+    "eslint-plugin-chai-expect": "~1.1.1",
+    "eslint-plugin-chai-friendly": "~0.4.0",
+    "eslint-plugin-ember": "~4.5.0",
+    "eslint-plugin-import": "~2.7.0",
+    "eslint-plugin-prettier": "~2.3.1",
+    "prettier": "~1.7.0",
+    "babel-eslint": "~8.0.1"
+  }
+}
