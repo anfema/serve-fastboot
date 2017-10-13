@@ -24,6 +24,10 @@ This gives you a simple `fastboot` binary that responds to the same configuratio
 
 ## Changelog
 
+### 1.0.1
+
+- Fix config loading
+
 ### 1.0.0 
 
 - Initial release
