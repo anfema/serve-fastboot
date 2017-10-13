@@ -1,6 +1,6 @@
 {
   "name": "serve-fastboot",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "FastBoot server module that can be used with any of our Ember projects",
   "main": "index.js",
   "bin": "bin/fastboot",
