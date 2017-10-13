@@ -1,6 +1,6 @@
 const FastBootAppServer = require('fastboot-app-server');
 const FastBootWatchNotifier = require('fastboot-watch-notifier');
-const config = require('./src/config.js');
+const config = require('./config.js');
 
 const notifier = new FastBootWatchNotifier({
 	debounceDelay: config.debounceDelay,
