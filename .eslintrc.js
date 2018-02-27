@@ -1,5 +1,5 @@
 module.exports = {
-	extends: 'anfema/prettier',
+	extends: 'anfema',
 
 	env: {
 		node: true,

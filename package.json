@@ -15,22 +15,23 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "fastboot-app-server": "^1.0.2",
-    "fastboot-watch-notifier": "^3.0.0",
-    "rc": "^1.2.1"
+    "debounce": "~1.1.0",
+    "fastboot-app-server": "^1.1.0",
+    "rc": "~1.2.5",
+    "sane": "~2.4.1"
   },
   "devDependencies": {
-    "eslint": "~4.8.0",
-    "eslint-config-airbnb-base": "~12.0.0",
-    "eslint-config-anfema": "~4.0.1",
-    "eslint-config-prettier": "~2.6.0",
+    "babel-eslint": "~8.2.2",
+    "eslint": "~4.18.1",
+    "eslint-config-airbnb-base": "~12.1.0",
+    "eslint-config-anfema": "~5.2.0",
+    "eslint-config-prettier": "~2.9.0",
     "eslint-plugin-babel": "~4.1.2",
     "eslint-plugin-chai-expect": "~1.1.1",
-    "eslint-plugin-chai-friendly": "~0.4.0",
-    "eslint-plugin-ember": "~4.5.0",
-    "eslint-plugin-import": "~2.7.0",
-    "eslint-plugin-prettier": "~2.3.1",
-    "prettier": "~1.7.0",
-    "babel-eslint": "~8.0.1"
+    "eslint-plugin-chai-friendly": "~0.4.1",
+    "eslint-plugin-ember": "~5.0.3",
+    "eslint-plugin-import": "~2.9.0",
+    "eslint-plugin-prettier": "~2.6.0",
+    "prettier": "~1.11.0"
   }
 }

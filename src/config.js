@@ -1,17 +1,14 @@
 const rc = require('rc');
 
-const config = rc('anfema-website-server', {
-	distPath: '',
+const config = rc('fastboot', {
+	distPath: 'dist',
 	gzip: true,
 	host: '127.0.0.1',
 	port: 4000,
 	sandboxGlobals: {},
-	debounceDelay: 1000,
-	saneOptions: {},
+	chunkedResponse: true,
+	watcherOptions: { poll: false },
+	watcherDebounce: 100,
 });
-
-if (!config.distPath) {
-	throw Error('No dist path sepcified');
-}
 
 module.exports = config;
